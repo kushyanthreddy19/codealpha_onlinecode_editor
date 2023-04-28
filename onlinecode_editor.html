@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Online Code Editor</title>
+        <link rel="icon" type="image/x-icon" href="/asset/icons8-source-code-32.png">
+        <link rel="stylesheet" href="onlinecodeeditor.css" />
+        <script src="https://kit.fontawesome.com/d162c7e08c.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        
+        <div class="container">
+            <div class="left">
+                <label> <i class="fa-brands fa-html5"></i> </i> </script> HTML</label>
+                <textarea id="html-code" onkeyup="run()"></textarea>
+
+                <label> <i class="fa-brands fa-css3-alt"></i> CSS</label>
+                <textarea id="css-code" onkeyup="run()"></textarea>
+
+                <label> <i class="fa-brands fa-square-js"></i> JavaScript</label>
+                <textarea id="js-code" onkeyup="run()"></textarea>
+            </div>
+            <div class="right">
+                <label> <i class="fa-solid fa-play"></i> Output </label>
+                <iframe id="output"></iframe>
+            </div>
+        </div>
+
+        <script src="onlinecodeeditor.js"></script>
+    </body>
+</html>
